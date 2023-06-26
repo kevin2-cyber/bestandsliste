@@ -1,4 +1,4 @@
-package com.kimikevin.bestandsliste;
+package com.kimikevin.bestandsliste.view;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

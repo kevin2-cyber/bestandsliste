@@ -1,16 +1,12 @@
 module com.kimikevin.bestandsliste {
     requires javafx.controls;
     requires javafx.fxml;
-        requires javafx.web;
             
-        requires org.controlsfx.controls;
-            requires com.dlsc.formsfx;
-            requires net.synedra.validatorfx;
-            requires org.kordamp.ikonli.javafx;
-            requires org.kordamp.bootstrapfx.core;
-            requires eu.hansolo.tilesfx;
-            requires com.almasb.fxgl.all;
-    
+                            
     opens com.kimikevin.bestandsliste to javafx.fxml;
     exports com.kimikevin.bestandsliste;
+    exports com.kimikevin.bestandsliste.view;
+    opens com.kimikevin.bestandsliste.view to javafx.fxml;
+    exports com.kimikevin.bestandsliste.controller;
+    opens com.kimikevin.bestandsliste.controller to javafx.fxml;
 }

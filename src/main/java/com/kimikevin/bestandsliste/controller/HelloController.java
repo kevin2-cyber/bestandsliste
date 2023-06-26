@@ -1,4 +1,4 @@
-package com.kimikevin.bestandsliste;
+package com.kimikevin.bestandsliste.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
