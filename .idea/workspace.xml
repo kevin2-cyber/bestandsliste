@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb81f945-a2b1-4bf0-b814-9b52f07215f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/model/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/view/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/model/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +58,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;,
+      &quot;redshift&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -98,6 +101,12 @@
       <updated>1684243708895</updated>
       <workItem from="1687781162551" duration="1083000" />
       <workItem from="1687960047484" duration="1214000" />
+      <workItem from="1687962974398" duration="339000" />
+      <workItem from="1687969266857" duration="1817000" />
+      <workItem from="1687971602655" duration="1972000" />
+      <workItem from="1688052866482" duration="137000" />
+      <workItem from="1688129705530" duration="1778000" />
+      <workItem from="1688215049379" duration="22000" />
     </task>
     <servers />
   </component>
