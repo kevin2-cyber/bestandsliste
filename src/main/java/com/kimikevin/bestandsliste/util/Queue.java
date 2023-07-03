@@ -1,4 +1,4 @@
-package com.kimikevin.bestandsliste.algol;
+package com.kimikevin.bestandsliste.util;
 
 import java.util.Collection;
 
