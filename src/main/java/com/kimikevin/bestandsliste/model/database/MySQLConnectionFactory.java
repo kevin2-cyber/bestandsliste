@@ -1,6 +1,8 @@
 package com.kimikevin.bestandsliste.model.database;
 
-public class OracleConnectionFactory implements ConnectionFactory{
+import java.sql.Connection;
+
+public class MySQLConnectionFactory implements ConnectionFactory{
     @Override
     public Connection createConnection() {
         return null;

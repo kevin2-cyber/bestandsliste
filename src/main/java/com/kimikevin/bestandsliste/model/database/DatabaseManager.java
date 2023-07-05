@@ -1,5 +1,8 @@
 package com.kimikevin.bestandsliste.model.database;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 public class DatabaseManager {
     private ConnectionFactory connectionFactory;
 
@@ -8,9 +11,14 @@ public class DatabaseManager {
     }
 
     public void doSomethingWithDatabase() {
-        Connection connection = connectionFactory.createConnection();
-        // Use the database connection for operations
-        // ...
-        connection.close();
+        try {
+            Connection connection = connectionFactory.createConnection();
+            // Use the database connection for operations
+            // ...
+            connection.close();
+        } catch (SQLException exception) {
+            exception.printStackTrace();
+        }
+
     }
 }
