@@ -10,9 +10,9 @@ public class ProductDaoImpl implements ProductDao{
     }
     @Override
     public Product getProductById(int id) {
-        for (int i = 0; i < products.list.size(); i++) {
-            if (products.list.get(i).getId() == id) {
-                return products.list.get(i);
+        for (Product product : products) {
+            if (product.getId() == id) {
+                return product;
             }
         }
         return null;
@@ -30,9 +30,9 @@ public class ProductDaoImpl implements ProductDao{
 
     @Override
     public void updateProduct(Product product) {
-        for (int i = 0; i < products.list.size(); i++) {
-            if (products.list.get(i).getId() == product.getId()) {
-                products.list.set(i, product);
+        for (int i = 0; i < products.size(); i++) {
+            if (products.get(i).getId() == product.getId()) {
+                products.set(i, product);
                 break;
             }
         }
