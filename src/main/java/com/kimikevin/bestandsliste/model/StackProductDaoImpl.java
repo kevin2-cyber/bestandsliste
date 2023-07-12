@@ -2,10 +2,10 @@ package com.kimikevin.bestandsliste.model;
 
 import com.kimikevin.bestandsliste.util.Stack;
 
-public class ProductDaoImpl implements ProductDao{
+public class StackProductDaoImpl implements StackProductDao {
     private Stack<Product> products;
 
-    public ProductDaoImpl() {
+    public StackProductDaoImpl() {
         products = new Stack<>();
     }
     @Override
