@@ -1,5 +1,6 @@
-package com.kimikevin.bestandsliste.model;
+package com.kimikevin.bestandsliste.model.stack;
 
+import com.kimikevin.bestandsliste.model.Product;
 import com.kimikevin.bestandsliste.util.Stack;
 
 public class StackProductDaoImpl implements StackProductDao {
