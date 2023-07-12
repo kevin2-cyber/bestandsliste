@@ -2,15 +2,15 @@ package com.kimikevin.bestandsliste.util;
 
 import java.util.ArrayList;
 
-public class Stack<T> {
+public class Stack<E> {
 
-    public ArrayList<T> list;
+    public ArrayList<E> list;
 
     public Stack() {
         list = new ArrayList<>();
     }
 
-    public void push(T element) {
+    public void push(E element) {
         list.add(list.size(), element);
     }
 
