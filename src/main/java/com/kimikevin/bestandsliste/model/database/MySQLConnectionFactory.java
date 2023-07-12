@@ -8,3 +8,10 @@ public class MySQLConnectionFactory implements ConnectionFactory{
         return null;
     }
 }
+
+class OracleConnectionFactory implements ConnectionFactory {
+    @Override
+    public Connection createConnection() {
+        return null;
+    }
+}

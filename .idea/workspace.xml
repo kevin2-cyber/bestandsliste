@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb81f945-a2b1-4bf0-b814-9b52f07215f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/model/database/MySQLConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/model/database/MySQLConnectionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2Rk5IsMvKRQb6oKQ26RveUrtl3f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -60,8 +65,8 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
-      &quot;oracle&quot;,
-      &quot;redshift&quot;
+      &quot;redshift&quot;,
+      &quot;oracle&quot;
     ]
   }
 }</component>
@@ -112,6 +117,9 @@
       <workItem from="1688413108217" duration="90000" />
       <workItem from="1688550901239" duration="148000" />
       <workItem from="1688555910737" duration="397000" />
+      <workItem from="1688564741961" duration="2412000" />
+      <workItem from="1689096331965" duration="2258000" />
+      <workItem from="1689154560148" duration="871000" />
     </task>
     <servers />
   </component>
