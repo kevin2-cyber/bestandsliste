@@ -40,7 +40,7 @@ public class StackProductDaoImpl implements StackProductDao {
     }
 
     @Override
-    public void deleteProduct(int id) {
+    public void deleteProduct() {
         products.pop();
     }
 }

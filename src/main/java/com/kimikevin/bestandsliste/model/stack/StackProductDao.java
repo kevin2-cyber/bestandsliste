@@ -9,5 +9,5 @@ public interface StackProductDao {
     Stack<Product> getAllProducts();
     void addProduct(Product product);
     void updateProduct(Product product);
-    void deleteProduct(int id);
+    void deleteProduct();
 }
