@@ -7,19 +7,25 @@ public class QueueProductDaoImpl implements QueueProductDao {
 
     private Queue<Product> products;
 
+
     @Override
     public Product getProductById(int id) {
+        for(Product product: products) {
+            if (product.getId() == id) {
+                return product;
+            }
+        }
         return null;
     }
 
     @Override
     public Queue<Product> getAllProducts() {
-        return null;
+        return products;
     }
 
     @Override
     public void addProduct(Product product) {
-
+        products.add(product);
     }
 
     @Override
@@ -28,7 +34,7 @@ public class QueueProductDaoImpl implements QueueProductDao {
     }
 
     @Override
-    public void deleteProduct(int id) {
-
+    public void deleteProduct() {
+        products.remove();
     }
 }
