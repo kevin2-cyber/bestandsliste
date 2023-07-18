@@ -9,7 +9,7 @@ import java.sql.*;
 
 public class ProductDataSource {
 
-    public static ObservableList<Product> products = FXCollections.observableArrayList();
+    public static ObservableList<Object> products = FXCollections.observableArrayList();
     // database url
     public static final String URL = "jdbc:oracle:thin:@localhost:1521:free";
 
