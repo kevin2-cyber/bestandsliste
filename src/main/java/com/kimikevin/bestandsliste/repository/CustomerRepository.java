@@ -14,6 +14,11 @@ public class CustomerRepository implements Repository<Customer> {
 
     @Override
     public Customer find(int id) {
+        for(Customer customer: customers) {
+            if (customer.getId() == id) {
+                return customer;
+            }
+        }
         return null;
     }
 

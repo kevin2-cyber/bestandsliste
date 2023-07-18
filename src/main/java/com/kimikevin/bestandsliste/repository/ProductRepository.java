@@ -13,6 +13,11 @@ public class ProductRepository implements Repository<Product> {
 
     @Override
     public Product find(int id) {
+        for (Product product: products) {
+            if (product.getId() == id) {
+                return product;
+            }
+        }
         return null;
     }
 
