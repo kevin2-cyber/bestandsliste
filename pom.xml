@@ -36,7 +36,16 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
-    </dependency>              </dependencies>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8 -->
+    <dependency>
+      <groupId>com.oracle.database.jdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>23.2.0.0</version>
+    </dependency>
+
+
+  </dependencies>
 
   <build>
         <plugins>
@@ -58,7 +67,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.kimikevin.bestandsliste/com.kimikevin.bestandsliste.view.HelloApplication</mainClass>
+              <mainClass>com.kimikevin.bestandsliste/com.kimikevin.bestandsliste.HelloApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
