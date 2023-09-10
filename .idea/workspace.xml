@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb81f945-a2b1-4bf0-b814-9b52f07215f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2820474d-9425-4a5a-981e-17922d997aea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2820474d-9425-4a5a-981e-17922d997aea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/data/source/ProductDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kimikevin/bestandsliste/data/source/ProductDataSource.java" afterDir="false" />
     </list>
@@ -34,13 +34,16 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Rk5IsMvKRQb6oKQ26RveUrtl3f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,7 +58,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kelvineduful/Desktop/github/bestandsliste/src/main/resources/com/kimikevin/bestandsliste&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kelvineduful/Desktop/github/bestandsliste&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -83,7 +86,7 @@
       <recent name="com.kimikevin.bestandsliste" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.console.sql">
+  <component name="RunManager" selected="Application.InventApplication">
     <configuration name="InventApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kimikevin.bestandsliste.InventApplication" />
       <module name="bestandsliste" />
@@ -146,6 +149,8 @@
       <workItem from="1689629110422" duration="15049000" />
       <workItem from="1689694514271" duration="7125000" />
       <workItem from="1689773933658" duration="1257000" />
+      <workItem from="1691181657864" duration="11137000" />
+      <workItem from="1694364134987" duration="253000" />
     </task>
     <servers />
   </component>

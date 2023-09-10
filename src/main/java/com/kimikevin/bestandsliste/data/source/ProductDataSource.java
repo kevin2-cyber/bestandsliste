@@ -6,6 +6,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import java.sql.*;
+import java.util.logging.Logger;
 
 public class ProductDataSource {
 
@@ -30,7 +31,7 @@ public class ProductDataSource {
             // Execute the SQL query
             ResultSet resultSet = statement.executeQuery(query);
         } catch (SQLException e) {
-            e.printStackTrace();
+            Logger.getLogger(e.toString());
         }
     }
 
@@ -44,7 +45,7 @@ public class ProductDataSource {
             // Execute the SQL query
             ResultSet resultSet = statement.executeQuery(query);
         } catch (SQLException e) {
-            e.printStackTrace();
+            Logger.getLogger(e.toString());
         }
         return null;
     }
@@ -66,7 +67,7 @@ public class ProductDataSource {
                 products.add(product);
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            Logger.getLogger(e.toString());
         }
         return null;
     }
